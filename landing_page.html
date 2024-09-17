@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grit - Intelligent Sales Automation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                        neutral: '#F3F4F6',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-primary playfair">Grit</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-primary transition duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-primary transition duration-300">Benefits</a>
+                    <a href="#contact" class="text-gray-600 hover:text-primary transition duration-300">Contact</a>
+                </div>
+                <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-full hover:bg-secondary transition duration-300">Join Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg relative">
+            <div class="overlay absolute inset-0"></div>
+            <div class="container mx-auto px-6 py-32 relative z-10 text-center text-white">
+                <h1 class="text-6xl font-bold mb-6 playfair">Revolutionize Your Sales with AI</h1>
+                <p class="text-2xl mb-10 max-w-2xl mx-auto">Automate outreach, qualify leads, and boost sales 24/7 with our intelligent bot.</p>
+                <a href="#contact" class="bg-white text-primary px-8 py-3 rounded-full text-lg font-semibold hover:bg-neutral transition duration-300 inline-block">Join Waitlist</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-16 text-center text-gray-800 playfair">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                    <div class="text-center">
+                        <div class="mb-6">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3616/3616961.png" alt="24/7 Calling" class="w-24 h-24 mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">24/7 Automated Calling</h3>
+                        <p class="text-gray-600">Never miss an opportunity with round-the-clock outreach capabilities.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="mb-6">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1870/1870162.png" alt="Human-like Conversations" class="w-24 h-24 mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Human-like Conversations</h3>
+                        <p class="text-gray-600">Engage leads with human-like speech and understanding.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="mb-6">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" alt="Lead Qualification" class="w-24 h-24 mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Intelligent Lead Qualification</h3>
+                        <p class="text-gray-600">Automatically identify and prioritize the most promising leads.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="mb-6">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6897/6897039.png" alt="Scalable Solution" class="w-24 h-24 mx-auto">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Scalable Solution</h3>
+                        <p class="text-gray-600">Easily expand your outreach efforts without additional manpower.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="py-20 bg-neutral">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-16 text-center text-gray-800 playfair">Why Choose Grit?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Increase Efficiency</h3>
+                        <p class="text-gray-600">Our AI bot works tirelessly, making hundreds of calls, maximizing your team's productivity.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Qualify Leads Faster</h3>
+                        <p class="text-gray-600">Identify and prioritize promising leads, allowing your sales team to focus on closing deals.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Reduce Costs</h3>
+                        <p class="text-gray-600">Automate repetitive tasks and cut operational costs significantly.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-primary">Scale Your Outreach</h3>
+                        <p class="text-gray-600">Grow your sales efforts exponentially without increasing your team size.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-8 playfair">Ready to Transform Your Sales Process?</h2>
+                <p class="text-2xl mb-12 max-w-2xl mx-auto">Contact us today for a personalized demo and see how Grit can help.</p>
+                <a href="#" class="bg-primary text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-secondary transition duration-300 inline-block">Get Started Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold text-primary playfair">Grit</h2>
+                    <p class="mt-2 text-gray-400">Intelligent Sales Automation</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-primary transition duration-300">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition duration-300">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition duration-300">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
